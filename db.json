@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "juancamilo",
+      "empresa": "clega",
+      "email": "cea@ce.com",
+      "telefono": "3012391474",
+      "notas": "Notas",
+      "id": 1
+    },
+    {
+      "nombre": "jua",
+      "empresa": "cat",
+      "email": "cc@cc.com",
+      "telefono": "3012391474",
+      "notas": "",
+      "id": 2
+    },
+    {
+      "nombre": "jct",
+      "empresa": "emp",
+      "email": "c@c.com",
+      "telefono": "30232143",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "nombre": "fds",
+      "empresa": "ecd",
+      "email": "c@c.com",
+      "telefono": "",
+      "notas": "",
+      "id": 5
+    }
+  ]
+}
