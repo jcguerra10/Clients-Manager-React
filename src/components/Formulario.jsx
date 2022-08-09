@@ -28,7 +28,7 @@ const Formulario = ({cliente, cargando}) => {
     const handleSubmit = async (values) => {
         try {
             if (cliente.id) {
-                const url = `http://localhost:4000/clientes/${cliente.id}`
+                const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
 
                 const respuesta = await fetch(url, {
                     method: "PUT", 
@@ -39,7 +39,7 @@ const Formulario = ({cliente, cargando}) => {
                 })
 
             } else {
-                const url = "http://localhost:4000/clientes"
+                const url = import.meta.env.VITE_API_URL
 
                 const respuesta = await fetch(url, {
                 method: "POST", 

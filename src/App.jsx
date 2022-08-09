@@ -8,6 +8,9 @@ import VerCliente from './pages/VerCliente'
 import Inicio from './pages/Inicio'
 
 function App() {
+
+  console.log(import.meta.env)
+
   return (
     <BrowserRouter>
       <Routes>
